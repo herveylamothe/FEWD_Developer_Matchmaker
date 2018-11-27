@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	cursor: default;
+}
+
+.page-header {
+    border-bottom: 4px solid yellow;
+}
+
+header {
+	background: black;
+	color: white;
+    padding: 1.20% 10%;
+}
+
+.uppercase{
+    font-family: 'Oswald', 'sans-serif';
+    text-transform: uppercase;
+}
+
+.logo {
+    font-family: 'Merriweather', 'serif';
+    font-size: 1.35em;
+	line-height: 1.2;
+    color: yellow;
+}
+
+a {
+    text-decoration: none;
+}
+
+    nav a {
+        color: white;
+    }
+
+    nav a:hover{
+        color: yellow
+    }
+    
+  
+.tagline{
+    font-family: 'Merriweather', 'serif';
+	text-align: center;
+	margin: 0;
+	padding: 2em 3%;
+	font-size: 1.50em;
+	line-height: 1em;
+	font-style: italic;
+	background: #C6C6C6;
+    border-top: 1px solid #AAA;
+}
+
+.content {
+    background: url(../images/coworking.jpg) center center;
+    box-shadow: inset 0 0 5px rgba(0,0,0,95%);
+    background-size: cover;
+    overflow: hidden;
+    padding: 3%;
+    padding-right: 5%;
+}
+
+.contentBox {
+    background-color: rgba(255,255,255, 80%);
+    box-shadow: 0 0 5px rgba(0,0,0,75%);
+    width: 40%;
+    padding: 4%;
+    float: right;
+}
+
+.button{
+    display: block;
+    font-family: 'Oswald', 'sans-serif';
+    color: black;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+
+.heading{
+    font-size: 33px;
+    font-weight: bolder;
+}
+
+.subHeading{
+    font-size: 25px;
+}
+
+.start{
+        margin: auto;
+}
+
+.option {
+    padding: 5%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+footer {
+	background: black;
+	color: white;
+	padding: 2% 2%;
+}
+
+    .row{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        
+    }
+    .col-1{
+        width: 8.333%
+    }
+    .col-2 {
+        width: calc(2*8.333%);
+    }
+    .col-3 {
+        width: calc(3 *8.333%)
+    }
+    .col-4 {
+        width: calc(4*8.333%);
+    }
+    .col-5{
+        width: calc(5*8.333%)
+    }
+    .col-6 {
+        width: calc(6*8.333%);
+    }
+    .col-7 {
+        width: calc(7*8.333%)
+    }
+    .col-8 {
+        width: calc(8*8.333%);
+    }
+    .col-9{
+        width: calc(9*8.333%)
+    }
+    .col-10 {
+        width: calc(10*8.333%);
+    }
+    .col-11 {
+        width: calc(11*8.333%)
+    }
+    .col-12 {
+        width: calc(12*8.333%);
+    }
+
+.center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.spaceBetween{
+    justify-content: space-between;
+}
+
+.spaceEven{
+    justify-content: space-evenly
+}
+
+.serif{
+    font-family: 'Merriweather', 'serif';
+}
+
+.sans{
+    font-family: 'Oswald', 'sans-serif';
+}
+
+.scratchout{
+    color: rgb(155, 147, 147);
+    text-decoration: line-through;
+}
+
+.underline{
+    border-bottom: 4px solid yellow;
+}
+
+.gray{
+    background: #c6c6c6;
+}
+
+.yellow{
+    background: yellow;
+}
+
+.pad1{
+    margin-right: 3%
+}
+
+.section{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 1px;
+    background: #cdcaca
+}
+
+
